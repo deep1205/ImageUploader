@@ -42,14 +42,14 @@
         </form>
     </div>
     </div>
-       <div class=hello2>
+       
         {% if obj %}
         <h3>Succesfully uploaded : Now press back to Check your image{{img_obj.caption}}</h3>
         <img src="{{ obj.image.url}}" alt="image" class="img-thumbnail"  >
         {% endif %}
         <hr>
 
-      
+      <div class=hello2>
         {% for x in img %}
         {% if forloop.first %}<div class="row ">{% endif %}
             <div class="col-lg-4 col-md-4 col-12" >

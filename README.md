@@ -1,2 +1,2 @@
 # ImageUploader
-Image Uploader Project on Django
+The Image Uploader Project on Django 
